@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "rag-tutorials"
+version = "0.1.0"
+description = "Tutorials on RAG, from beginner to advanced."
+authors = ["Bryan Holman <bryanpholman@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
